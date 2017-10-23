@@ -29,16 +29,27 @@ It	will	have	a	0	where	there	is	nothing,	and	a	2	where	there	is	a	tree.
 
 So	for	instance,	an	input	file	arranged	like	figure	2B (but	with	no	lizards	yet)	and	requesting	you	
 to	use	the DFS	algorithm	to	place	8	lizards	in	the	8x8	nursery	would	look	like:
+
 DFS
+
 8
+
 8
+
 00000000
+
 00000000
+
 00000000
+
 00002000
+
 00000000
+
 00000200
+
 00000000
+
 00000000
 
 Output:	The	file	output.txt which	your	program	creates	in	the	current	directory	should be	
