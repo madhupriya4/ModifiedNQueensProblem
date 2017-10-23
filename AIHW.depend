@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1507947151 source:/home/madhupriya/Documents/Codes/AIHW/main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<deque>
+	<fstream>
+	<string>
+	<list>
+	<stdlib.h>
+	<cstdlib>
+	<time.h>
+	<math.h>
+	<limits.h>
+	<sstream>
+	<chrono>
+
