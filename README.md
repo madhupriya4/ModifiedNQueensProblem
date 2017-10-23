@@ -31,25 +31,15 @@ So	for	instance,	an	input	file	arranged	like	figure	2B (but	with	no	lizards	yet)
 to	use	the DFS	algorithm	to	place	8	lizards	in	the	8x8	nursery	would	look	like:
 
 DFS
-
 8
-
 8
-
 00000000
-
 00000000
-
 00000000
-
 00002000
-
 00000000
-
 00000200
-
 00000000
-
 00000000
 
 Output:	The	file	output.txt which	your	program	creates	in	the	current	directory	should be	
@@ -60,6 +50,7 @@ Next	n	lines:	 the	n	x	n	nursery,	one	line in	the	file per	nursery	row,	includin
 and	trees. It	will	have	a	0	where	there	is	nothing,	a	1	where	you	placed	a	baby	
 lizard, and	a	2	where	there	is	a	tree.	
 For	example,	a	correct	output.txt	for	the	above	sample	input.txt	(and	matching	Figure	2B) is:
+
 OK
 00000100
 10000000
