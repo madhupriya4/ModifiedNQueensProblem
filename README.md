@@ -30,17 +30,17 @@ It	will	have	a	0	where	there	is	nothing,	and	a	2	where	there	is	a	tree.
 So	for	instance,	an	input	file	arranged	like	figure	2B (but	with	no	lizards	yet)	and	requesting	you	
 to	use	the DFS	algorithm	to	place	8	lizards	in	the	8x8	nursery	would	look	like:
 
-DFS
-8
-8
-00000000
-00000000
-00000000
-00002000
-00000000
-00000200
-00000000
-00000000
+DFS  
+8  
+8  
+00000000  
+00000000  
+00000000  
+00002000  
+00000000  
+00000200  
+00000000  
+00000000  
 
 Output:	The	file	output.txt which	your	program	creates	in	the	current	directory	should be	
 formatted	as	follows:
@@ -51,38 +51,39 @@ and	trees. It	will	have	a	0	where	there	is	nothing,	a	1	where	you	placed	a	baby
 lizard, and	a	2	where	there	is	a	tree.	
 For	example,	a	correct	output.txt	for	the	above	sample	input.txt	(and	matching	Figure	2B) is:
 
-OK
-00000100
-10000000
-00001000
-01002001
-00000000
-00100200
-00000010
-00010000
+OK  
+00000100  
+10000000  
+00001000  
+01002001  
+00000000  
+00100200  
+00000010  
+00010000   
 
 
 Example	1:
-For	this	input.txt:
-BFS
-2
-2
-00
-00
+For	this	input.txt:  
+BFS  
+2  
+2  
+00  
+00  
 one	possible	correct	output.txt	is:
 FAIL
+
 Example	2:
-For	this	input.txt:
-DFS
-4
-4
-0000
-0000
-0000
-0000
-one	possible	correct	output.txt	is:
-OK
-0010
-1000
-0001
-0100
+For	this	input.txt:  
+DFS  
+4  
+4  
+0000  
+0000  
+0000  
+0000  
+one	possible	correct	output.txt	is:  
+OK  
+0010  
+1000  
+0001  
+0100  
