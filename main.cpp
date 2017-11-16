@@ -459,7 +459,7 @@ void solveZoo(vector<vector<int>>& board,int& trees,int p,ofstream & myfile,int 
         myfile<<"FAIL"<<endl;
         return;
     }
-    if(n==1)
+    if(n==1 && !trees)
     {
         myfile<<p;
         return;
